@@ -1,0 +1,40 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#viewDiv01 {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 50%;
+}
+
+#viewDiv02 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 50%;
+}
+
+#lable01{
+	position: absolute;
+	top: 5px;
+	right: 200px;
+	font-size: 30px;
+	color: blueviolet;
+}
+
+#lable02{
+	position: absolute;
+	top: 5px;
+	left: 200px;
+	font-size: 30px;
+	color: blueviolet;
+}

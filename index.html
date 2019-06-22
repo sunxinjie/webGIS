@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>公安县地理位置</title>
+		<link rel="stylesheet" href="css01.css" />
+		<link rel="stylesheet" href="https://js.arcgis.com/4.11/esri/themes/light/main.css">
+		<link rel="stylesheet" href="css_menu.css" />
+		<script src="https://js.arcgis.com/4.11/"></script>
+		<script src="js01.js"></script>
+	</head>
+
+	<body>
+
+		<!--******************************************************侧栏切换菜单*****************************************************************-->
+		<ul>
+			<li>
+				<a class="entypo-star" href="index.html"></a> <span>公安县地理位置</span>
+			</li>
+
+			<li>
+				<a class="entypo-newspaper" href="addLayer.html"></a> <span>公安县POI点</span>
+			</li>
+
+			<li>
+				<a class="entypo-link" href="maplink.html"></a> <span>公安县水系关联</span>
+			</li>
+
+			<li>
+				<a class="entypo-menu" href="layerswipe.html"></a> <span>公安县水系变化情况</span>
+			</li>
+		</ul>
+		
+
+		<!--******************************************************地图显示DIV*****************************************************************-->
+		<div id="viewDiv01"></div>
+		<div id="viewDiv02"></div>
+		<div id="viewDiv03"></div>
+		<div id="viewDiv04"></div>
+		<div id="viewDiv05"></div>
+		<div id="viewDiv06"></div>
+
+		<!--******************************************************地图切换DIV*****************************************************************-->
+		<div id="popdiv_write">
+			<div id="write_output">
+				<div id="basemap01" class="basemap" ><img src="poi.jpg" width="120px"/></div>
+				<div id="basemap02" class="basemap" ><img src="wuye.png" width="120px"/></div>
+				<div id="basemap03" class="basemap" ><img src="canvas.jpg" width="120px"/></div>
+				<div id="basemap04" class="basemap" ><img src="ago_downloaded.png" width="120px"/></div>
+				<div id="basemap05" class="basemap" ><img src="streets.png" width="120px"/></div>
+				<div id="basemap06" class="basemap" ><img src="hybrid.jpg" width="120px"/></div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

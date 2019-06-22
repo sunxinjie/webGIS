@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>加载公安县图层</title>
+		<link rel="stylesheet" href="css02.css" />
+		<link rel="stylesheet" href="css_menu.css" />
+		<link rel="stylesheet" href="https://js.arcgis.com/4.11/esri/themes/light/main.css">
+		<script src="https://js.arcgis.com/4.11/"></script>
+		<script src="js02.js"></script>
+	</head>
+	<body>
+		<ul>
+			<li>
+				<a class="entypo-star" href="index.html"></a> <span>公安县地理位置</span>
+			</li>
+
+			<li>
+				<a class="entypo-newspaper" href="addLayer.html"></a> <span>公安县POI点</span>
+			</li>
+
+			<li>
+				<a class="entypo-link" href="maplink.html"></a> <span>公安县水系关联</span>
+			</li>
+
+			<li>
+				<a class="entypo-menu" href="layerswipe.html"></a> <span>公安县水系变化情况</span>
+			</li>
+		</ul>
+		
+		<div id="viewDiv"></div>
+
+		<div id="LayerBox">
+			<p>添加图层</p>
+			<div id="SingleBox">
+				<a>&nbsp;&nbsp;公安县行政边界</a>
+				<div id="AddGongAn" class="button_Add">√</div>
+				<div id="RemoveGongAn" class="button_Remove">×</div>
+			</div>
+			<div id="SingleBox">
+				<a>&nbsp;&nbsp;公安县行政点</a>
+				<div id="AddGav" class="button_Add">√</div>
+				<div id="RemoveGav" class="button_Remove">×</div>
+			</div>
+			<div id="SingleBox">
+				<a>&nbsp;&nbsp;公安县汽车服务点</a>
+				<div id="AddCar" class="button_Add">√</div>
+				<div id="RemoveCar" class="button_Remove">×</div>
+			</div>
+			<div id="SingleBox">
+				<a>&nbsp;&nbsp;公安县加油站点</a>
+				<div id="AddGas" class="button_Add">√</div>
+				<div id="RemoveGas" class="button_Remove">×</div>
+			</div>
+			<div id="Layers">
+			</div>
+			
+
+		</div>
+
+	</body>
+</html>
