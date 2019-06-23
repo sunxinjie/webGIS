@@ -11,3 +11,5 @@
 ### 访问地址
 
 https://sunxinjie.github.io/webGIS/index.html
+
+（注意：为使访问效果最佳，请让浏览器全屏显示）
