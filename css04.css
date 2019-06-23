@@ -1,0 +1,36 @@
+#viewDiv02 {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#lable01 {
+	position: absolute;
+	top: 5px;
+	right: 200px;
+	font-size: 30px;
+	color: blueviolet;
+}
+
+#lable02 {
+	position: absolute;
+	top: 5px;
+	left: 200px;
+	font-size: 30px;
+	color: blueviolet;
+}
+
+#swipe {
+	position: absolute;
+	top: 5px;
+	left: 0px； z-index: 100;
+	width: 100%;
+}
+
+.swipe input[type=range] {
+	width: 300px;
+}
